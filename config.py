@@ -4,5 +4,5 @@ class Config(object):
 class ProdConfig(Config):
     pass
 
-class DevCOnfig(Config):
+class DevConfig(Config):
     pass
