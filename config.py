@@ -5,4 +5,5 @@ class ProdConfig(Config):
     pass
 
 class DevConfig(Config):
-    pass
+    debug = True
+    SQLALCHEMY_DATABASE_URI = "YOUR_URI"
